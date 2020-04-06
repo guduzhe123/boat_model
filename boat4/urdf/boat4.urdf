@@ -1,0 +1,43 @@
+<robot
+  name="boat4">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.31605 -4.8849 -7.4656"
+        rpy="0 0 0" />
+      <mass
+        value="2180400" />
+      <inertia
+        ixx="42739000"
+        ixy="-200280"
+        ixz="-49353000"
+        iyy="159200000"
+        iyz="8060.8"
+        izz="118550000" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://boat4/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79608 0.82353 0.93725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://boat4/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
